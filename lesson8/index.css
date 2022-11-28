@@ -1,0 +1,48 @@
+.class1 {
+    background-color: blue;
+  }
+  .class2 {
+    background-color: pink;
+  }
+  .class3 {
+    background-color: red;
+  }
+  .class4 {
+    background-color: yellow;
+  }
+  /* select elements that have both of the classes / for elements that have only one of them would not wt */
+  .class1.class2 {
+    font-weight: 700;
+  }
+  /* select all elements of class3 that are children of class1 */
+  .class1 .class3 {
+    color: white;
+  }
+  /* select class thta is immediately after class1 */
+  .class1 + .class2 {
+    font-size: 30px;
+  }
+  /* sleect class that is under class1 but not required exsctly under. can be in any other position */
+  .class1 ~ .class4 {
+    text-decoration: line-through;
+  }
+  .class1 > .class3{
+      border: 2px solid black;
+  }
+ .animal{
+    font-size: 18px;
+    color: aqua;
+    font-weight: 700;
+    background-color: beige;
+    
+ }   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
