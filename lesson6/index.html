@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <form action="/action_page.php">
+        <fieldset>
+          <legend>Реєстрація:</legend>
+          <form>
+          <label for="name">Повне ім'я:</label>
+          <input type="text" id="name" name="name" /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br />
+          <label for="password">Пароль:</label>
+          <input type="password" id="password" name="password" /><br />
+          <label for="password">Пароль ще раз:</label>
+          <input type="password" id="password" name="password" /><br />
+        </form>
+        <form>
+          Стать:
+          <input type="radio" id="sex" name="sex" value="male" /> <label for="sex">чоловіча</label>
+          <input type="radio" id="sex1" name="sex"value="female" /> <label for="sex1">жіноча</label><br />
+          <label for="age">Вік:</label>
+          <input type="number" id="age" name="age" /><br />
+        </form>
+          <label for="age">Курс:</label>
+          <select id="Courses" name="Courses">
+            <option>-=Виберіть курс=-</option>
+            <option value="Front-end Developer">Front-end Developer</option>
+            <option value="Back-end Developer">Back-end Developer</option>
+            <option value="Full Stack Developer">Full Stack Developer</option>
+          </select>
+          <br />
+          <label for="adress">Повна адреса:</label>
+          <textarea id="adress" name="adress"  rows="4" cols="25"placeholder="Країна, регіон, місто/ селеще, вулиця" ></textarea>
+          <br />
+          <input type="checkbox" id="texdocum" name="texdocum">
+          <label for="texdocum">Я погоджуюсь з обробкою персональних даних</label>
+          <br />
+
+         <button>Очистити форму</button>
+         <button>Зареєструватися</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
